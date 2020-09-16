@@ -12,6 +12,11 @@ import unittest      # import the module that supports writing unit tests
 class TestsLab1(unittest.TestCase):
    def test_expressions(self):         # Defines one testing function.
       self.assertEqual(0 + 1, 1)
+      self.assertEqual(2 * 2, 4)
+      self.assertEqual(19 // 3, 6)
+      self.assertEqual(19 / 3, 6.33333333333333)
+      self.assertEqual(4 * 2 + 27 // 3 + 4, 21)
+      self.assertEqual(4 * (2 + 27) // 3 + 4, 42)
       # Add code here (like the line above) for the additional test cases.
 
 
